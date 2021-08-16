@@ -77,10 +77,6 @@ jq17(document).ready(function($) {
     			});
 
 				var res = confopts.video_out["video.size"].match(/{(\d+);(\d+)}/);
-
-				var b = confopts.video_out["video.encoder.bitrate"];
-
-				debugger;
     			confConn.SetOptions({
     				video_maxparticipants: vmLOM.getMaxVisible(),// gVMSets.option_def_video_maxparticipants
     				bitrate_limit: confopts.video_out["video.encoder.bitrate"],
