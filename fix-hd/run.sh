@@ -1,13 +1,13 @@
 #!/bin/sh
 
 f1='JSConfConnection.js'
-p1='../js/vmc'
+p1='../../js/vmc'
 
 f2='RTCConnectionClass.js'
-p2='../js/wconf/jmate/lib'
+p2='../../js/wconf/jmate/lib'
 
 f3='ui.js'
-p3='../skin/zskin/js/wconf'
+p3='../../skin/zskin/js/wconf'
 
 cp "$f1" "$p1"
 echo "Сopy $f1 => $p1"
